@@ -1,0 +1,23 @@
+<table>
+  <tr>
+  	<th class="nam">Name</th>
+  	<th class="ema">E-mail</th>
+  	<th class="reg">Registered On</th>
+  	<th class="cmd">Commands</th>
+  </tr>
+  
+<% r = 0
+for user in @users 
+r += 1
+%>
+  <tr <%= r%2 == 1 ? 'class="altrow"' : '' %>>
+  	<td class="nam"><%=h user.fullName %></td>
+  	<td class="ema"><%= mail_to(user.email, user.email, :subject => "BlogBridge: ") %></td>
+  	<td class="reg"><%= user.registrationDate.to_date %></td>
+  	<td class="cmd"><%= link_to 'Delete', { :action => 'destroy', :id => user }, :confirm => 'Are you sure?', :post => true %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to_remote 'Previous page', :update => "users", :url => { :action => 'unactivated_page', :page => @user_pages.current.previous } if @user_pages.current.previous %>
+<%= link_to_remote 'Next page', :update => "users", :url => { :action => 'unactivated_page', :page => @user_pages.current.next } if @user_pages.current.next %> 

@@ -1,0 +1,5 @@
+page['msg_' + @id].visual_effect :fade, :from => 1, :to => 0, :duration => 1
+page['message-form'].hide
+page.delay(1) do
+  page['msg_' + @id].remove
+end

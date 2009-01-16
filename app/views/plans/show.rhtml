@@ -1,0 +1,30 @@
+<p><label>Name:</label> <%=h @plan.name %></p>
+
+<p><label>Description:</label> <%=h @plan.description %></p>
+
+<% if @plan.price > 0 %>
+<p><label>Price:</label> $<%= @plan.price %> per <%= @plan.period_months %> months</p>
+<% end %>
+
+<p><label>Features:</label></p>
+
+<table id="features">
+  <tr>
+    <th>Feature</th>
+    <th>Value</th>
+    <th>Overriden</th>
+  </tr>
+
+<% r = 0 %>
+<% for feature in @features %>
+  <tr <%= r%2==0 ? 'class="altrow"' : '' %>>
+    <td class="nam"><%=h feature['title'] %></td>
+    <td class="val"><%=h feature['value'] %></td>
+    <td class="ove"><%= feature['overriden'] == '1' ? 'Yes' : 'No' %></td>
+  </tr>
+<% r += 1 %>
+<% end %>
+</table>
+ 
+<%= link_to 'Edit', :action => 'edit', :id => @plan %> |
+<%= link_to 'Back', :action => 'list' %>

@@ -1,0 +1,54 @@
+<h1>Listing plans</h1>
+
+<table id="plans">
+  <tr>
+    <th class="fea">Features</th>
+  <% for plan in @plans %>
+    <th class="pla"><%= plan.name %></th>
+  <% end %>
+  </tr>
+  
+  <tr>
+  	<td class="fea">Price</td>
+  <% for plan in @plans %>
+    <td class="pla"><%= plan.price && plan.price.to_i != 0 ? plan.price : '-' %></td>
+  <% end %>
+  </tr>
+
+  <tr>
+  	<td class="fea">Payment Period (months)</td>
+  <% for plan in @plans %>
+    <td class="pla"><%= plan.period_months && plan.period_months.to_i != 0 ? plan.period_months : '-' %></td>
+  <% end %>
+  </tr>
+
+  <tr>
+  	<td colspan="2">&nbsp;</td>
+  </tr>
+
+<% r = 0 %>
+<% for feature in @features %>
+  <tr <%= r%2 == 0 ? 'class="altrow"' : '' %>>
+    <td class="fea"><%= feature.title %></td>
+  <% for plan in @plans %>
+    <td class="pla"><%= @plan_features[plan.id][feature.id] %></td>
+  <% end %>
+  </tr>
+  <% r += 1 %>
+<% end %>
+
+  <tr>
+    <td>&nbsp;</td>
+  <% for plan in @plans %>
+    <td class="pla">
+      <%= link_to 'Show', :action => 'show', :id => plan %>
+      <%= link_to 'Edit', :action => 'edit', :id => plan %>
+      <%= link_to 'Delete', { :action => 'destroy', :id => plan }, :confirm => 'Are you sure?', :post => true %>
+    </td>
+  <% end %>
+  </tr>
+</table>
+
+<br />
+
+<%= link_to 'New plan', :action => 'new' %>

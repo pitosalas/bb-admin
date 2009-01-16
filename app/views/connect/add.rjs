@@ -1,0 +1,9 @@
+page['maction'].value = 'add'
+page['mid'].value = -1
+page['message_title'].value = ''
+page['message_text'].value = ''
+page['message_version'].value = ''
+page['message_preview'].innerHTML = ''
+page['message_mtype'].value = 1
+page['message_priority'].value = 1
+page['message-form'].show

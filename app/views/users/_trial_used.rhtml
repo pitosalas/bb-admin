@@ -1,0 +1,4 @@
+<%= link_to_remote (trial_used.plan_is_trial_used ? 'Yes' : 'No'),
+	:update => "tri_#{trial_used.id}",
+	:url => { :action => "toggle_trial_used", :id => trial_used.id }
+%>

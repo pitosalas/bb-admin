@@ -1,0 +1,32 @@
+<h1>Features</h1>
+
+<table id="features">
+  <tr>
+    <th class="nam">Name</th>
+    <th class="des">Description</th>
+    <th class="for">Format</th>
+    <th class="def">Default&nbsp;Value</th>
+    <th class="cmd">Commands</th>
+  </tr>
+<% r = 0; %>
+<% for feature in @features %>
+  <tr <%= r%2 == 0 ? 'class="altrow"' : '' %>>
+    <td class="nam"><%= feature.title %> (<%= feature.name %>)</td>
+    <td class="des"><%= feature.description %></td>
+    <td class="for"><%= feature.format_description %></td>
+    <td class="def"><%= feature.default_value %></td>
+    <td class="cmd">
+      <%= link_to 'Edit', :action => 'edit', :id => feature %>
+      <%= link_to 'Delete', { :action => 'destroy', :id => feature }, :confirm => 'Are you sure?', :post => true %>
+    </td>
+  </tr>
+<% r += 1 %>
+<% end %>
+</table>
+
+<%= link_to 'Previous page', { :page => @feature_pages.current.previous } if @feature_pages.current.previous %>
+<%= link_to 'Next page', { :page => @feature_pages.current.next } if @feature_pages.current.next %> 
+
+<br />
+
+<%= link_to 'New feature', :action => 'new' %>

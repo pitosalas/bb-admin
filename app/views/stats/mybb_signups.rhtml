@@ -1,0 +1,28 @@
+<h1>My BlogBridge Signups</h1>
+
+<table id="users">
+	<tr>
+  	<th class="nam">Name</th>
+  	<th class="ema">E-mail</th>
+  	<th class="dat">Date</th>
+  	<th class="act">Activated</th>
+  	<th class="hea">Heard From</th>
+  	<th class="occ">Occupation</th>
+	</tr>
+<% r = 0
+for user in @users 
+r += 1
+%>
+	<tr <%= 'class="altrow"' if r%2 == 1%>>
+  	<td class="nam"><%=h user.fullName %></td>
+  	<td class="ema"><%= mail_to(user.email, user.email, :subject => "BlogBridge: ") %></td>
+  	<td class="dat"><%= user.registrationDate.to_date.to_s %></td>
+  	<td class="act"><%= user.activated ? "Yes" : "No" %></td>
+  	<td class="hea"><%= user.q_hear %></td>
+  	<td class="occ"><%= user.q_occupation %></td>
+	</tr>
+<% end %>
+</table>
+
+<%= link_to_remote 'Previous page', :update => "users", :url => { :action => 'change_page', :page => @user_pages.current.previous } if @user_pages.current.previous %>
+<%= link_to_remote 'Next page', :update => "users", :url => { :action => 'change_page', :page => @user_pages.current.next } if @user_pages.current.next %> 

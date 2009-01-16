@@ -1,0 +1,18 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+first_feature:
+  id: 1
+  name: first_feature
+  title: FF
+  description: Sample feature 2
+  format_description: 0 or 1
+  default_value: 1
+  hidden: 0
+
+second_feature:
+  id: 2
+  name: second_feature
+  title: SF
+  description: Sample feature 2
+  format_description: 2 or 3
+  default_value: 2
+  hidden: 0

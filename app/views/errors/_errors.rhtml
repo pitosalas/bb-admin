@@ -1,0 +1,10 @@
+<table>
+  <% @errors.each do |row| %>
+  <tr>
+    <td class="ver"><%= link_to_remote row[:version], :update => "errors", :url => { :action => "set_version_filter", :id => row[:version] } %></td>
+    <td class="mes"><%= link_to_remote h(row[:message]), :update => "details", :url => { :action => "details", :id => row[:id] } %></td>
+    <td class="cou"><%= row[:cnt] %></td>
+    <td class="com"><%= link_to_remote 'Delete', :update => "errors", :url => { :action => "delete", :id => row[:id] } %></td>
+  </tr>
+  <% end %>
+</table>

@@ -1,0 +1,25 @@
+<h1>Client Errors</h1>
+
+<h2>Summary</h2>
+<table>
+  <% @summary.each do |row| %>
+  <tr>
+    <td><%= link_to_remote row[:version], :update => "errors", :url => { :action => "set_version_filter", :id => row[:version] } %></td>
+    <td><%= row[:cnt] %></td>
+    <td><%= link_to 'Delete', :action => 'delete_version', :version => row[:version] %></td>
+  </tr>
+  <% end %>
+</table>
+
+<div id="det">
+  <h2>Details</h2>
+  <pre id="details"></pre>
+</div>
+
+<div id="err">
+  <h2>Errors</h2>
+  <div id="errors">
+    <%= render :partial => "errors" %>
+  </div>
+</div>
+
