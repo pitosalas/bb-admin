@@ -33,3 +33,5 @@ production:
   username: pito
   password: pitodb
   host: localhost
+  socket: /var/lib/mysql/mysql.sock
+
