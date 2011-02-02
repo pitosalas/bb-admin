@@ -12,7 +12,9 @@ class PlansController < ApplicationController
     @plans = Plan.find(:all, :order => 'price, name');
     @features = Feature.find(:all, :order => 'name');
     
-    pf = Plan.connection().select_all('select p.id pid, f.id fid, coalesce(pf.value, default_value) value from plans p, features f left join plans_features pf on p.id=pf.plan_id and f.id=pf.feature_id')
+# this select statement does not work on mysql 5
+#    pf = Plan.connection().select_all('select p.id pid, f.id fid, coalesce(pf.value, default_value) value from plans p, features f left join plans_features pf on p.id=pf.plan_id and f.id=pf.feature_id')
+    pf = Plan.connection().select_all('select p.id pid, f.id fid, coalesce(pf.value, default_value) value from plans p join features f left join plans_features pf on p.id=pf.plan_id and f.id=pf.feature_id')
     @plan_features = []
     pf.each do |r|
       pid = r['pid'].to_i
