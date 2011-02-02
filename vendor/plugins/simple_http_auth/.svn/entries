@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="116"
+   name=""
+   committed-date="2007-10-19T18:20:23.683136Z"
+   url="http://www.blogbridge.com/svn/bbadmin/trunk/vendor/plugins/simple_http_auth"
+   last-author="alg"
+   kind="dir"
+   uuid="8d4586f8-a237-0410-a08c-9a4f06a2d8ec"
+   revision="125"/>
+<entry
+   name="test"
+   kind="dir"/>
+<entry
+   committed-rev="116"
+   name="Rakefile"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="05dbca8f269c62fe934cdfab53c5253d"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="init.rb"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="fdd6248114a6765d41c555bc5843d9b9"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   committed-rev="116"
+   name="MIT-LICENSE"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="331bbceddc6dc38de42adf16de128f9b"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="README"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="bae0de6606b3fc8c11c57574f090be1e"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+</wc-entries>

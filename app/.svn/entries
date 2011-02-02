@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="256"
+   name=""
+   committed-date="2007-12-23T07:37:45.929260Z"
+   url="http://www.blogbridge.com/svn/bbadmin/trunk/app"
+   last-author="alg"
+   kind="dir"
+   uuid="8d4586f8-a237-0410-a08c-9a4f06a2d8ec"
+   revision="256"/>
+<entry
+   name="helpers"
+   kind="dir"/>
+<entry
+   name="models"
+   kind="dir"/>
+<entry
+   name="controllers"
+   kind="dir"/>
+<entry
+   name="views"
+   kind="dir"/>
+</wc-entries>

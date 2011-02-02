@@ -1,0 +1,40 @@
+<%= error_messages_for 'plan' %>
+
+<!--[form:plan]-->
+<p><label for="plan_name">Name:</label><br/>
+<%= text_field 'plan', 'name'  %></p>
+
+<p><label for="plan_description">Description:</label><br/>
+<%= text_area 'plan', 'description', :rows => 5 %></p>
+
+<p><label for="plan_price">Price:</label><br/>
+<%= text_field 'plan', 'price'  %></p>
+
+<p><label for="plan_period_months">Payment Period (months):</label><br/>
+<%= text_field 'plan', 'period_months'  %></p>
+
+<p><label for="plan_hidden">Hidden:</label><br/>
+<%= check_box 'plan', 'hidden', {}, "1", "0"  %></p>
+
+<p><label>Features:</label></p>
+
+<table id="features">
+  <tr>
+    <th>Feature</th>
+    <th>Value</th>
+    <th>Format</th>
+  </tr>
+
+<% r = 0 %>
+<% for feature in @features %>
+  <tr <%= r%2==0 ? 'class="altrow"' : '' %>>
+    <td class="nam"><%=h feature['title'] %></td>
+    <td class="val"><input type="text" name="features[f_<%= feature['id'] %>]" value="<%=h feature['plan_value'] %>" /></td>
+    <td class="for"><%=h feature['format_description'] %></td>
+  </tr>
+<% r += 1 %>
+<% end %>
+</table>
+
+<!--[eoform:plan]-->
+

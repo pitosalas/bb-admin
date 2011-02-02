@@ -1,0 +1,58 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+free_user:
+  id: 1
+  fullName: u1
+  email: u1e
+  password: u1p
+  activated: 1
+  registrationDate: <%= 1.year.ago %>
+  apikey: api1
+  plan_id: 1
+  
+basic_user:
+  id: 2
+  fullName: u2
+  email: u2e
+  password: u2p
+  activated: 1
+  registrationDate: <%= 1.year.ago %>
+  apikey: api2
+  plan_id: 2
+  plan_price: 5
+  plan_period_months: 3
+  plan_exp_date: <%= 1.month.from_now %>
+  pp_subid: subid2
+  pp_since: <%= 2.month.ago %>
+  pp_payments: 1
+  
+publisher_user:
+  id: 3
+  fullName: u3
+  email: u3e
+  password: u3p
+  activated: 1
+  registrationDate: <%= 1.year.ago %>
+  apikey: api3
+  plan_id: 3
+  plan_price: 50
+  plan_period_months: 3
+  plan_exp_date: <%= 1.month.from_now %>
+  pp_subid: subid3
+  pp_since: <%= 2.month.ago %>
+  pp_payments: 1
+  
+expired_basic_user:
+  id: 4
+  fullName: u4
+  email: u4e
+  password: u4p
+  activated: 1
+  registrationDate: <%= 1.year.ago %>
+  apikey: api4
+  plan_id: 2
+  plan_price: 5
+  plan_period_months: 3
+  plan_exp_date: <%= 1.month.ago %>
+  pp_subid: subid4
+  pp_since: <%= 4.month.ago %>
+  pp_payments: 1

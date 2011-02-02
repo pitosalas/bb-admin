@@ -1,0 +1,23 @@
+<%= error_messages_for 'feature' %>
+
+<!--[form:feature]-->
+<p><label for="feature_name">Name</label><br/>
+<%= text_field 'feature', 'name'  %></p>
+
+<p><label for="feature_title">Title</label><br/>
+<%= text_field 'feature', 'title'  %></p>
+
+<p><label for="feature_description">Description</label><br/>
+<%= text_area 'feature', 'description', :rows=>5  %></p>
+
+<p><label for="feature_format_description">Format description</label><br/>
+<%= text_area 'feature', 'format_description', :rows=>5  %></p>
+
+<p><label for="feature_default_value">Default value</label><br/>
+<%= text_field 'feature', 'default_value'  %></p>
+
+<p><label for="feature_hidden">Hidden:</label><br/>
+<%= check_box 'feature', 'hidden', {}, "1", "0"  %></p>
+
+<!--[eoform:feature]-->
+

@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>BB Admin</title>
+  <%= stylesheet_link_tag 'application' %>
+  <%= javascript_include_tag 'prototype', 'effects', 'application' %>
+</head>
+<body>
+  <div>
+  <p class="navbar">
+    &nbsp;<%= link_to 'Plans', :controller => 'plans', :action => 'list' %>
+    &nbsp;<%= link_to 'Features', :controller => 'features', :action => 'list' %>
+    &nbsp;<%= link_to 'Users', :controller => 'users', :action => 'list' %>
+    &nbsp;<%= link_to 'Statistics', :controller => 'stats', :action => 'index' %>
+    &nbsp;<%= link_to 'Unactivated', :controller => 'users', :action => 'unactivated' %>
+    &nbsp;<%= link_to 'Feeds', :controller => 'rss', :action => 'index' %>
+    &nbsp;<%= link_to 'Errors', :controller => 'errors', :action => 'index' %>
+    &nbsp;<%= link_to 'BBConnect', :controller => 'connect' %>
+  </p>
+  </div>
+
+  <%= @content_for_layout %>
+
+</body>
+</html>

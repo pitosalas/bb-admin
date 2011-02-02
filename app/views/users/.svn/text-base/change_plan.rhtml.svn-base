@@ -1,0 +1,39 @@
+<h1>Changing Plan for <%= @user.fullName %> &lt;<%= @user.email %>&gt;</h1>
+
+<table>
+	<tr>
+		<td><label>Plan:</label></td>
+		<td><%= @user.plan.name %><%= " (trial)" if @user.plan_is_trial %></td>
+	</tr>
+	<tr>
+		<td><label>Period (months):</label></td>
+		<td><%= @user.plan_period_months ? @user.plan_period_months : "None" %></td>
+	</tr>
+	<tr>
+		<td><label>Price per period:</label></td>
+		<td>$<%= @user.plan_price ? @user.plan_price.to_f : "0.00" %></td>
+	</tr>
+	<tr>
+		<td><label>Next installment / expiration:</label></td>
+		<td><%= @user.plan_exp_date == nil ? "Never" : @user.plan_exp_date.to_date %></td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<td>
+			<%= start_form_tag :action => 'grant_unlimited', :id => @user %>
+				<label>Grant Unlimited:</label> <br />
+				<%= collection_select(:plan, :id, Plan.find_all, :id, :name) %> <br/>
+				<%= submit_tag "Grant" %>
+			<%= end_form_tag %>
+		</td>
+		<td>
+			<%= start_form_tag :action => 'grant_trial', :id => @user %>
+				<label>Grant Trial:</label> <br />
+				<%= select_date(Date.today + 30) %> <br/>
+				<%= submit_tag "Grant" %>
+			<%= end_form_tag %>
+		</td>
+	</tr>
+</table>

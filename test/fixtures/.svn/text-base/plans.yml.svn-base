@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+free_plan:
+  id: 1
+  name: Free
+  description: Free plan.
+  price: 0
+  period_months: 0
+
+basic_plan:
+  id: 2
+  name: Basic
+  description: Basic plan.
+  price: 5
+  period_months: 3
+
+pub_plan:
+  id: 3
+  name: Publisher
+  description: Micro-publisher plan.
+  price: 25
+  period_months: 3

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="116"
+   name=""
+   committed-date="2007-10-19T18:20:23.683136Z"
+   url="http://www.blogbridge.com/svn/bbadmin/trunk/app/views/features"
+   last-author="alg"
+   kind="dir"
+   uuid="8d4586f8-a237-0410-a08c-9a4f06a2d8ec"
+   revision="256"/>
+<entry
+   committed-rev="116"
+   name="list.rhtml"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="1bcb74ca438d2c960edd87483e5db341"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="show.rhtml"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="8fe399da8c45b21cda1b8772759ec362"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="_form.rhtml"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="9a25385ecff383b8cd1e9aaa95511d39"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="edit.rhtml"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="09719b19524884223970f0153a137d76"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="new.rhtml"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="4c194118ca70e30f96c9e5868061c115"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+</wc-entries>

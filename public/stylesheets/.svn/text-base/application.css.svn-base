@@ -1,0 +1,52 @@
+body { background-color: #fff; color: #333; }
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   11px;
+  line-height: 18px;
+}
+
+div h2 { margin-top: 0; }
+label { font-weight: bold; }
+
+.altrow { background-color: #f0f0f0; }
+
+#plans .nam { width: 200px; }
+#plans .pla { width: 150px; text-align: center; }
+
+#features tr { vertical-align: top; }
+#features td { padding: 3px; }
+#features .nam { width: 150px; font-weight: bold; }
+#features .des { width: 200px; }
+#features .for { width: 100px; }
+#features .def, #features .val { width: 50px; text-align: center; }
+#features .cmd { width: 100px; }
+#features .ove { width: 100px; text-align: center; }
+
+#users .nam { width: 200px; }
+#users .ema { width: 150px; }
+#users .pla { width: 200px; text-align: center; }
+#users .tri { width: 100px; text-align: center; }
+#users .reg { width: 150px; text-align: center; }
+#users .cmd { text-align: center; }
+#users .dat { width: 100px; text-align: center; }
+#users .act { width: 100px; text-align: center; }
+#users .hea { width: 150px; text-align: center; }
+#users .occ { width: 150px; text-align: center; }
+
+#sum { float: left; width: 170px; }
+#err { margin-left: 180px; }
+#det { clear: both; height: 300px; padding: 10px; font-size: 9px; background: #f0f0f0; border: 1px dotted #404040; margin: 20px 0 20px 20px; overflow: scroll; }
+
+/* BBConnect */
+#message-form { float: right; margin: 0 15px; }
+#message_title { width: 400px; }
+#message_text { width: 400px; }
+#message_title, #message_text, #message_version, #message_type, #message_priority { border: 1px solid #bbb; padding: 2px; }
+#message_preview { border: 1px dotted #ccc; background-color: #eee; padding: 5px; width: 390px; }
+
+#messages thead { font-weight: bold; text-align: center; }
+#messages .id { width: 20px; text-align: center; }
+#messages .typ { width: 120px; }
+#messages .tit { width: 220px; }
+#messages .pri { width: 75px; }

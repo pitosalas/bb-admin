@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="116"
+   name=""
+   committed-date="2007-10-19T18:20:23.683136Z"
+   url="http://www.blogbridge.com/svn/bbadmin/trunk/app/helpers"
+   last-author="alg"
+   kind="dir"
+   uuid="8d4586f8-a237-0410-a08c-9a4f06a2d8ec"
+   revision="256"/>
+<entry
+   committed-rev="116"
+   name="features_helper.rb"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="fa1f61f14a814c7a0f3982503fc35938"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="reports_helper.rb"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="7a1f265b100e3eb2f670b0ce4ecb2e01"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="stats_helper.rb"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="7656ef3181a66edf31fb579bfafd58c3"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="back_helper.rb"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="20675477c5d25752b4909c0ba67fdabb"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="users_helper.rb"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="9e83a0b117a3e96aa9f00ace008d13a3"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="application_helper.rb"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="3a1f28b1e560cf597cd3f2a9afade628"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="rss_helper.rb"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="dc95b0202434c29691f2b288e9a8fd4a"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="connect_helper.rb"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="56d375843992e060e904b2bf5a1b866f"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="errors_helper.rb"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="464bdac29300cae07d60ba2c73d40b7f"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="plans_helper.rb"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="58abdd10f4835ef7b1c83fc009b95717"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+</wc-entries>

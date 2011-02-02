@@ -1,0 +1,10 @@
+--- 
+user: alg
+cwd: /u/pitosalas/salas.com/domains/blogbridge.com/tools/bbadmin/current/
+log_file: log/mongrel.log
+port: "3020"
+environment: production
+group: users
+address: 127.0.0.1
+pid_file: tmp/pids/mongrel.pid
+servers: 2

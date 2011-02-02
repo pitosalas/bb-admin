@@ -1,0 +1,11 @@
+<tr id="msg_<%= message_row.id %>" <%= adding ? 'style="opacity: 0;"' : '' %>>
+  <td class="id"><%= message_row.id %></td>
+  <td class="typ"><%= h(@types[message_row.mtype]) %></td>
+  <td class="tit"><%= h(message_row.title) %></td>
+  <td class="pri"><%= h(@priorities[message_row.priority]) %></td>
+  <td class="ver"><%= h(message_row.version) %></td>
+  <td class="com">
+    <%= link_to_remote 'E', :url => { :action => 'edit', :id => message_row.id }%>
+    <%= link_to_remote 'D', :url => { :action => 'delete', :id => message_row.id }%>
+  </td>
+</tr>

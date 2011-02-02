@@ -1,0 +1,36 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+v1_1:
+  id: 101
+  message: Error type 1
+  details: Details 1
+  time: 2007-01-01
+  version: '1.0'
+
+v1_2:
+  id: 102
+  message: Error type 2
+  details: Details 2
+  time: 2007-01-02
+  version: '1.0'
+
+v1_3:
+  id: 103
+  message: Error type 2
+  details: Details 3
+  time: 2007-01-03
+  version: '1.0'
+
+v2_1:
+  id: 201
+  message: Error type 2
+  details: Details 2
+  time: 2007-02-01
+  version: '2.0'
+
+v2_2:
+  id: 202
+  message: Error type 2
+  details: Details 2
+  time: 2007-02-02
+  version: '2.0'
+  

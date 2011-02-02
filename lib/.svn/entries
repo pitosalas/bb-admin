@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="117"
+   name=""
+   committed-date="2007-10-19T18:23:33.149528Z"
+   url="http://www.blogbridge.com/svn/bbadmin/trunk/lib"
+   last-author="alg"
+   kind="dir"
+   uuid="8d4586f8-a237-0410-a08c-9a4f06a2d8ec"
+   revision="125"/>
+<entry
+   name="tasks"
+   kind="dir"/>
+</wc-entries>

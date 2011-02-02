@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="116"
+   name=""
+   committed-date="2007-10-19T18:20:23.683136Z"
+   url="http://www.blogbridge.com/svn/bbadmin/trunk/test/fixtures"
+   last-author="alg"
+   kind="dir"
+   uuid="8d4586f8-a237-0410-a08c-9a4f06a2d8ec"
+   revision="125"/>
+<entry
+   committed-rev="116"
+   name="users.yml"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="e359f3b228d01fb173bc667fe162fb2c"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="events.yml"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="ed2fd6f8dfcd29af635c13d69dd81d7e"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="messages.yml"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="ed2fd6f8dfcd29af635c13d69dd81d7e"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="clienterrors.yml"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="7678a67c42bee17c692ade414ad82b2c"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="plans.yml"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="c44696f72a5a0024f1f8d1f5fa3f369e"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="features.yml"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="3425f9f96831dcbf8c95f09fa7c9c209"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+</wc-entries>

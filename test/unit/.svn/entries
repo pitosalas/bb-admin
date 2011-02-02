@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="116"
+   name=""
+   committed-date="2007-10-19T18:20:23.683136Z"
+   url="http://www.blogbridge.com/svn/bbadmin/trunk/test/unit"
+   last-author="alg"
+   kind="dir"
+   uuid="8d4586f8-a237-0410-a08c-9a4f06a2d8ec"
+   revision="125"/>
+<entry
+   committed-rev="116"
+   name="user_test.rb"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="2da46114740c6575833505a95ee846b2"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:29.000000Z"/>
+<entry
+   committed-rev="116"
+   name="event_test.rb"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="659f6ac3f72e30d1ef7d8841aa2d5430"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:29.000000Z"/>
+<entry
+   committed-rev="116"
+   name="message_test.rb"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="d6584b478d2b5ff5583560b60e87c569"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:29.000000Z"/>
+<entry
+   committed-rev="116"
+   name="client_error_test.rb"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="cdd1df9d11943d2485d36509c95c4994"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:29.000000Z"/>
+<entry
+   committed-rev="116"
+   name="plan_test.rb"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="3d395788211e7bf7575485d1038b9257"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="feature_test.rb"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="0315b055fdbecae5236318c93210b72c"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+</wc-entries>

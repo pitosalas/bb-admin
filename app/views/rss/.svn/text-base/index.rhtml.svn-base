@@ -1,0 +1,10 @@
+<h1>RSS Feeds</h1>
+
+<ul>
+	<li><%= link_to 'All Events', :action => 'all' %></li>
+	<li><%= link_to 'PayPal: New Subscriptions', :action => 'subscriptions' %></li>
+	<li><%= link_to 'PayPal: Subscription Payments', :action => 'payments' %></li>
+	<li><%= link_to 'PayPal: Subscription Cancellations', :action => 'cancellations' %></li>
+	<li><%= link_to 'PayPal: Suspicious Subscriptions', :action => 'suspicious' %></li>
+	<li><%= link_to 'Account: Activations', :action => 'activations' %></li>
+</ul>

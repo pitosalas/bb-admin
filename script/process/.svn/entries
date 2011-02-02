@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="117"
+   name=""
+   committed-date="2007-10-19T18:23:33.149528Z"
+   url="http://www.blogbridge.com/svn/bbadmin/trunk/script/process"
+   last-author="alg"
+   kind="dir"
+   uuid="8d4586f8-a237-0410-a08c-9a4f06a2d8ec"
+   revision="125"/>
+<entry
+   committed-rev="117"
+   name="spawner"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:23:33.149528Z"
+   checksum="e7e52ded28489a821b5eb156f92ca0f5"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="117"
+   name="reaper"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:23:33.149528Z"
+   checksum="77608fa9e09e9f24410e7374c67956b7"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+</wc-entries>

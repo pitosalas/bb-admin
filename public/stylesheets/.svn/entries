@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="255"
+   name=""
+   committed-date="2007-12-23T07:37:35.105054Z"
+   url="http://www.blogbridge.com/svn/bbadmin/trunk/public/stylesheets"
+   last-author="alg"
+   kind="dir"
+   uuid="8d4586f8-a237-0410-a08c-9a4f06a2d8ec"
+   revision="256"/>
+<entry
+   committed-rev="116"
+   name="scaffold.css"
+   text-time="2007-10-19T19:34:31.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="70e729685fb3ef28f5db5035a50567eb"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:31.000000Z"/>
+<entry
+   committed-rev="255"
+   name="application.css"
+   text-time="2007-12-23T07:37:50.000000Z"
+   committed-date="2007-12-23T07:37:35.105054Z"
+   checksum="aaa12a1583715a13fd0346035189b926"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-12-23T07:37:50.000000Z"/>
+</wc-entries>

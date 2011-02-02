@@ -1,0 +1,16 @@
+"Full Name","E-Mail","Plan","Paypal Info","Trial Used","Created","Activated"
+<% @users.each do |u|
+	pp = ''
+	if (u.pp_cancelled)
+		pp = "Cancelled on #{u.pp_cancelled.to_date.to_s}"
+	elsif (u.pp_subid)
+		pp = "Since #{u.pp_since.to_date.to_s} at $#{u.plan_price}, #{u.pp_payments} payments received"
+	end
+%><%= '"' + h(u.fullName) + '","' + 
+	h(u.email) + '","' +
+	u.plan_name + (u.plan_is_trial ? " (trial)" : '') + " - " + (u.plan_exp_date == nil ? "Never" : u.plan_exp_date.to_date.to_s) + '","' + 
+	pp + '","' +
+	(u.plan_is_trial_used ? 'Yes' : 'No') + '","' +
+	u.registrationDate.to_date.to_s + '","' + 
+	(u.activated ? "Yes" : "No") + '"' %>
+<% end %>

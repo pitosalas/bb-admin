@@ -1,0 +1,92 @@
+<div id="message-form" style="display: none;">
+  <%= form_remote_tag :url => { :action => 'commit' } %>
+    <input type="hidden" id="maction" name="maction" value="" />
+    <input type="hidden" id="mid" name="mid" value="" />
+    
+    <table>
+      <tr>
+        <td colspan="3">
+          <label for="message_title">Title</label><br/>
+          <input type="text" id="message_title" name="message[title]">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="message_mtype">Type</label><br/>
+          <select id="message_mtype" name="message[mtype]">
+          <% (0..2).each do |i| %>
+            <option value="<%= i %>"><%= @types[i] %></option>
+          <% end %>
+          </select>
+        </td>
+        <td>
+          <label for="message_priority">Priority</label><br/>
+          <select id="message_priority" name="message[priority]">
+          <% (0..2).each do |i| %>
+            <option value="<%= i %>"><%= @priorities[i] %></option>
+          <% end %>
+          </select>
+        </td>
+        <td>
+          <label for="message_version">Version</label><br/>
+          <input type="text" id="message_version" name="message[version]" size="10">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <label for="message_text">Text</label><br/>
+          <textarea id="message_text" name="message[text]" rows="10"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <input type="submit" id="commit" value="Save" />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          Version field format:<br>
+          <ul>
+            <li>x.y[.z] - show message to version x.y.z</li>
+            <li>'draft' - don't show message</li>
+            <li>leave empty to show message to everyone</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <label for="message_preview">Live Preview</label><br/>
+          <div id="message_preview"></div>
+        </td>
+      </tr>
+    </table>
+  <%= end_form_tag %>
+</div>
+
+<script type="text/javascript">
+Event.observe('message_text', 'keyup', function() {
+  $('message_preview').innerHTML = $('message_text').value;
+});
+</script>
+
+<%= link_to_remote 'Add New', :url => { :action => 'add' } %>
+
+<div id="messages">
+  <table>
+    <thead>
+      <tr>
+        <td class="id">ID</td>
+        <td class="typ">Type</td>
+        <td class="tit">Title</td>
+        <td class="pri">Priority</td>
+        <td class="ver">Version</td>
+        <td class="com"></td>
+      </tr>
+    </thead>
+    <tbody id="messages_body">
+    <% @messages.each do |m| %>
+      <%= render :partial => 'message_row', :object => m, :locals => { :adding => false } %>
+    <% end %>
+    </tbody>
+  </table>
+</div>

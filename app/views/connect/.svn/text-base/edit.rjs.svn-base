@@ -1,0 +1,9 @@
+page['maction'].value = 'edit'
+page['mid'].value = @msg.id
+page['message_title'].value = @msg.title
+page['message_text'].value = @msg.text
+page['message_version'].value = @msg.version
+page['message_preview'].innerHTML = @msg.text
+page['message_mtype'].value = @msg.mtype
+page['message_priority'].value = @msg.priority
+page['message-form'].show

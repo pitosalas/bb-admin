@@ -1,0 +1,6 @@
+<% if @users.length > 0 %>
+Expired as of today:
+
+<% for user in @users %><%= user.fullName %> (<%= user.email %>) - <%= time_ago_in_words(user.plan_exp_date.to_date) %> - $<%= user.plan_price %> per <%= user.plan_period_months %> mo
+<% end %>
+<% end %>

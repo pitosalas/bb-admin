@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="116"
+   name=""
+   committed-date="2007-10-19T18:20:23.683136Z"
+   url="http://www.blogbridge.com/svn/bbadmin/trunk/public/javascripts"
+   last-author="alg"
+   kind="dir"
+   uuid="8d4586f8-a237-0410-a08c-9a4f06a2d8ec"
+   revision="256"/>
+<entry
+   committed-rev="116"
+   name="prototype.js"
+   text-time="2007-10-19T19:34:31.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="f57aaa32617e68bc8328178fd26c1f52"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:31.000000Z"/>
+<entry
+   committed-rev="116"
+   name="effects.js"
+   text-time="2007-10-19T19:34:31.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="1bf9e7ea099a222968c0f52cdee468be"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:31.000000Z"/>
+<entry
+   committed-rev="116"
+   name="dragdrop.js"
+   text-time="2007-10-19T19:34:31.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="7d686eb473f836647e9d95cc13655dd3"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:31.000000Z"/>
+<entry
+   committed-rev="116"
+   name="controls.js"
+   text-time="2007-10-19T19:34:31.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="23cef7404ffe6d410b0c235433771d51"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:31.000000Z"/>
+<entry
+   committed-rev="116"
+   name="application.js"
+   text-time="2007-10-19T19:34:31.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="43793e1c1c9af8adc192e0dc23229c4c"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:31.000000Z"/>
+</wc-entries>

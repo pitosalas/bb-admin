@@ -1,0 +1,29 @@
+<h1>Listing users</h1>
+
+<%= form_remote_tag :url => {:action => 'filter'}, :update => 'users' %>
+<table>
+	<tr>
+		<td><label for="filter_id">Filter:</label></td>
+		<td><label for="user_name">User Name or E-mail:</label></td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>
+			<select name="filter_id">
+				<option value="-1">All</option>
+			<% Plan.find_all.each do |p| %>
+				<option value="<%= p.id %>"><%= p.name %></option>
+			<% end %>
+			  <option value="-2">Paying Users</option>
+			  <option value="-3">Active Trials</option>
+			</select>
+		</td>
+		<td><input type="text" id="user_name" name="user_name"/></td>
+		<td><%= submit_tag 'Filter' %> <%= link_to "Excel", { :action => "list_excel" }%></td>
+	</tr>
+</table>
+<%= end_form_tag %>
+
+<div id="users">
+	<%= render :partial => 'show_users' %>
+</div>

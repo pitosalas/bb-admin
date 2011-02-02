@@ -1,0 +1,30 @@
+<h2>Users with and without accounts</h2>
+<p>Displays the number of active installations with and without user accounts.
+Active installations are those having at least one run during the last month.</p>
+
+<table>
+<thead>
+<tr>
+<td>Period</td>
+<td>With</td>
+<td>Without</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Today</td>
+<td><%= @today_w %></td>
+<td><%= @today_wo %></td>
+</tr>
+<tr>
+<td>Week</td>
+<td><%= @week_w %></td>
+<td><%= @week_wo %></td>
+</tr>
+<tr>
+<td>Month</td>
+<td><%= @month_w %></td>
+<td><%= @month_wo %></td>
+</tr>
+</tbody>
+</table>

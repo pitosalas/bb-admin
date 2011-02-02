@@ -1,0 +1,12 @@
+page['message-form'].hide
+if @new
+  page.call('insert_message', @row)
+  page['msg_' + @msg.id.to_s].visual_effect :fade, :from => 0, :to => 1, :duration => 1
+else
+  page['msg_' + @msg.id.to_s].visual_effect :fade, :from => 1, :to => 0, :duration => 0.5
+  page.delay(0.5) do
+    page.replace 'msg_' + @msg.id.to_s, @row
+    page['msg_' + @msg.id.to_s].visual_effect :fade, :from => 0, :to => 1, :duration => 0.5
+  end
+end
+

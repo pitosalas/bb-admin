@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="119"
+   name=""
+   committed-date="2007-10-19T18:41:40.615453Z"
+   url="http://www.blogbridge.com/svn/bbadmin/trunk/app/views/layouts"
+   last-author="alg"
+   kind="dir"
+   uuid="8d4586f8-a237-0410-a08c-9a4f06a2d8ec"
+   revision="256"/>
+<entry
+   committed-rev="119"
+   name="standard.rhtml"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:41:40.615453Z"
+   checksum="d0d9874b9c389f49b7d6ed52d7691dbf"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+</wc-entries>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="117"
+   name=""
+   committed-date="2007-10-19T18:23:33.149528Z"
+   url="http://www.blogbridge.com/svn/bbadmin/trunk/config"
+   last-author="alg"
+   kind="dir"
+   uuid="8d4586f8-a237-0410-a08c-9a4f06a2d8ec"
+   prop-time="2007-10-19T19:34:30.000000Z"
+   revision="125"/>
+<entry
+   committed-rev="116"
+   name="routes.rb"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="c734ddb7dabe0e7af5fea9a493aab1a5"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="database.yml"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="1933263fbf7c7659f9f58e9848cfb833"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="mongrel_cluster.yml"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="55ed3508f002ea4e0320cd287de06f4f"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="boot.rb"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="051f2b77c29b10f8b2e06a7dfd26ab07"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="environment.rb"
+   text-time="2007-10-19T19:34:30.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="0919fce91c457bd6ca9b0b4e6b322ae0"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   name="environments"
+   kind="dir"/>
+<entry
+   committed-rev="117"
+   name="database.example.yml"
+   text-time="2007-10-19T19:34:31.000000Z"
+   committed-date="2007-10-19T18:23:33.149528Z"
+   checksum="1933263fbf7c7659f9f58e9848cfb833"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+<entry
+   committed-rev="116"
+   name="deploy.rb"
+   text-time="2007-10-19T19:34:31.000000Z"
+   committed-date="2007-10-19T18:20:23.683136Z"
+   checksum="7e1ad9eb8bbfd632e7b3d585a85a715b"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-10-19T19:34:30.000000Z"/>
+</wc-entries>

@@ -1,0 +1,32 @@
+<h1>Statistics</h1>
+
+<table id="stats">
+	<tr>
+		<td colspan="2"><label>Plans Statistics</label></td>
+	</tr>
+<% r = 0
+for plan in @plans 
+r += 1
+%>
+	<tr <%= 'class="altrow"' if r%2 == 1%>>
+		<td><label><%= plan.name %></label></td>
+		<td><%= pluralize(plan.users.count, "user") %></td>
+	</tr>
+<% end %>
+	<tr>
+		<td><label>Paying Users:</label></td>
+		<td><%= pluralize(@paying_users, "user") %></td>
+	</tr>
+
+	<tr><td colspan="2">&nbsp;</td></tr>
+	
+	<tr>
+		<td colspan="2"><label>Misc Statistics</label></td>
+	</tr>
+	<tr>
+		<td class="altrow"><label>Monthly Income:</label></td>
+		<td>$<%= @monthly_income.to_f %></td>
+	</tr>
+</table>
+
+<p><%= link_to 'My BlogBridge Signups', :controller => 'stats', :action => 'mybb_signups' %></p>

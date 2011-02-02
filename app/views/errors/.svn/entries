@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="256"
+   name=""
+   committed-date="2007-12-23T07:37:45.929260Z"
+   url="http://www.blogbridge.com/svn/bbadmin/trunk/app/views/errors"
+   last-author="alg"
+   kind="dir"
+   uuid="8d4586f8-a237-0410-a08c-9a4f06a2d8ec"
+   revision="256"/>
+<entry
+   committed-rev="253"
+   name="_errors.rhtml"
+   text-time="2007-12-23T07:35:48.000000Z"
+   committed-date="2007-12-23T07:35:45.490616Z"
+   checksum="8a7064fa68d7f45d2cee891743d9353f"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-12-23T07:35:48.000000Z"/>
+<entry
+   committed-rev="256"
+   name="index.rhtml"
+   text-time="2007-12-23T07:37:49.000000Z"
+   committed-date="2007-12-23T07:37:45.929260Z"
+   checksum="46de2fc08c31e3fe5be6301415c32d7e"
+   last-author="alg"
+   kind="file"
+   prop-time="2007-12-23T07:37:49.000000Z"/>
+</wc-entries>
