@@ -1,6 +1,6 @@
 --- 
 user: alg
-cwd: /u/pitosalas/salas.com/domains/blogbridge.com/tools/bbadmin
+cwd: /u/pitosalas/salas.com/domains/blogbridge.com/tools/bbadmin/current/
 log_file: log/mongrel.log
 port: "3020"
 environment: production

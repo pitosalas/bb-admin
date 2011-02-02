@@ -1,8 +1,21 @@
 <table>
-  <% @errors.each do |row| %>
+  <tr>
+    <th class="ver">Version</th>
+    <th class="thr">Thread</th>
+    <th class="cla">Class</th>
+    <th class="mes">Message</th>
+    <th class="cou">Count</th>
+  </tr>
+  <% @errors.each do |row| 
+    version = row[:version]
+    thread, klass, severity, message  = row[:message].scan(/^\s*\[([^\\]+)\]\s+([^:]+)\s+([^\s:]+):\s+(.+)\s*$/).flatten
+    text = message.gsub(/http:\/\/[^\s]+/, 'http://...')
+  -%>
   <tr>
     <td class="ver"><%= link_to_remote row[:version], :update => "errors", :url => { :action => "set_version_filter", :id => row[:version] } %></td>
-    <td class="mes"><%= link_to_remote h(row[:message]), :update => "details", :url => { :action => "details", :id => row[:id] } %></td>
+    <td class="thr"><%=h thread %></td>
+    <td class="cla"><%=h klass %></td>
+    <td class="mes"><%= link_to_remote h(text), :update => "details", :url => { :action => "details", :id => row[:id] } %></td>
     <td class="cou"><%= row[:cnt] %></td>
     <td class="com"><%= link_to_remote 'Delete', :update => "errors", :url => { :action => "delete", :id => row[:id] } %></td>
   </tr>

@@ -6,6 +6,7 @@ body, p, ol, ul, td {
   line-height: 18px;
 }
 
+div h2 { margin-top: 0; }
 label { font-weight: bold; }
 
 .altrow { background-color: #f0f0f0; }
@@ -33,8 +34,9 @@ label { font-weight: bold; }
 #users .hea { width: 150px; text-align: center; }
 #users .occ { width: 150px; text-align: center; }
 
-#det { float: right; width: 450px; height: 300px; padding: 10px; font-size: 9px; background: #f0f0f0; border: 1px dotted #404040; margin: 0 0 20px 20px; overflow: scroll; }
-#err { margin-right: 440px; }
+#sum { float: left; width: 170px; }
+#err { margin-left: 180px; }
+#det { clear: both; height: 300px; padding: 10px; font-size: 9px; background: #f0f0f0; border: 1px dotted #404040; margin: 20px 0 20px 20px; overflow: scroll; }
 
 /* BBConnect */
 #message-form { float: right; margin: 0 15px; }

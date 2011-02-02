@@ -39,7 +39,7 @@ class ErrorsController < ApplicationController
   
   # Sets the version filter value and renders errors partial
   def set_version_filter
-    session[:version] = params[:id]
+    session[:version] = params[:version]
     fetch_errors
     render(:partial => "errors", :layout => false)
   end
